@@ -1,0 +1,49 @@
+.main-right-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;      
+    height: calc(100vh - 140px);
+}
+
+.right-section-upper-text {
+    text-align: center;
+    width: 70%;
+    font-size: 28px;
+}
+
+.right-main-down-section {
+    display: grid; 
+    grid-template-columns: 0.6fr 1.4fr; 
+    grid-template-rows: 0.6fr 1.4fr; 
+}
+
+.right-image-section-down {
+     grid-area: 1 / 2 / 3 / 3;
+}
+
+.right-down-text-section-down {
+     grid-area: 2 / 1 / 3 / 3;
+     margin-left: 15%;
+}
+
+.title-text-high {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.description-text {
+    width: 55%;
+    font-size: 20px;
+}
+
+.button-black {
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 23px;
+}
