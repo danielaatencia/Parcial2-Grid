@@ -1,0 +1,21 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 3fr 4fr 2fr;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.navbar-section {
+    display: grid;
+    width: 77%;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
+    margin-left: 80px;
+    font-weight: 300;
+}
+
+.notification-icon {
+    margin-right: 20px;
+}
